@@ -36,6 +36,10 @@ function cal() {
   {
   month.innerHTML ='0'+( d.getMonth() + 1);
   }
+  else
+  {
+  month.innerHTML =(d.getMonth() + 1);
+  }
   year.innerHTML = d.getFullYear();
   if (d.getHours() % 12 === 0) hou.innerHTML = "12";
   else hou.innerHTML = d.getHours() % 12;
